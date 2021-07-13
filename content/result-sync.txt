@@ -1,0 +1,2 @@
+Check out the result: Hello this is the first txt, 
+Hello this is the second text
