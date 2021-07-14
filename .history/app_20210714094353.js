@@ -11,8 +11,7 @@ const start = async () => {
     const second = await readFile("./content/second.txt", "utf8");
     await writeFile(
       "./content/result-mind-grenade.txt",
-      ` what a lovely: ${first}, ${second}, `,
-      { flag: "a" }
+      `what a lovely: ${first}, ${second}`
     );
     console.log(first);
     console.log(second);
